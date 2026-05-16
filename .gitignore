@@ -1,0 +1,48 @@
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# Environment
+.env
+appsettings.Development.json
+appsettings.Production.json
+secrets.json
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Azure
+.azure/
+PublishProfiles/
+
+# Azurite local emulator files
+__blobstorage__/
+__queuestorage__/
+__azurite_db*
+.vscode/.azurite
+
+# C# Dev Kit Cache
+*.lscache
